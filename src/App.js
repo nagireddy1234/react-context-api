@@ -1,9 +1,13 @@
 import React from 'react';
 import Counter from "./Components/Counter"
 import './App.css';
-import Storedcounter from './Components/Storedcounter';
-import {ObjectCounter} from './Components/ObjectCounter';
-import {ArrayHooks} from "./Components/ArrayHooks"
+import Storedcounter from './Components/Strinnghooks';
+import {ObjectCounter} from './Components/ObjectHooks';
+import {ArrayHooks} from "./Components/ArrayHooks";
+import ClassCounter from './Components/ClassCounter';
+import MouseHook from './Components/MouseHook';
+import IntervelCounter from './Components/IntervelCounter';
+import {IntervelHookCounter} from './Components/IntervelHookCounter'
 
 function App() {
   return (
@@ -15,6 +19,14 @@ function App() {
       <ObjectCounter />
       <hr />
       <ArrayHooks />
+      <hr />
+      <ClassCounter />
+      <hr />
+      <MouseHook />
+      <hr />
+      <IntervelCounter />
+      <hr />
+      <IntervelHookCounter />
     </div>
   );
 }
