@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import Counter from "./Components/Counter"
 import './App.css';
+import Storedcounter from './Components/Storedcounter';
+import {ObjectCounter} from './Components/ObjectCounter';
+import {ArrayHooks} from "./Components/ArrayHooks"
 
 function App() {
   return (
     <div className="App">
-      hello
+      {/* <Counter />
+      <hr />
+      <Storedcounter />
+      <hr />
+      <ObjectCounter />
+      <hr /> */}
+      <ArrayHooks />
     </div>
   );
 }
