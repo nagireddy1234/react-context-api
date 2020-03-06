@@ -8,12 +8,12 @@ import {ArrayHooks} from "./Components/ArrayHooks"
 function App() {
   return (
     <div className="App">
-      {/* <Counter />
+      <Counter />
       <hr />
       <Storedcounter />
       <hr />
       <ObjectCounter />
-      <hr /> */}
+      <hr />
       <ArrayHooks />
     </div>
   );
